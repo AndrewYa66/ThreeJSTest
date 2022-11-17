@@ -1,0 +1,93 @@
+{
+	"metadata": {
+		"type": "App"
+	},
+	"project": {
+		"shadows": true,
+		"shadowType": 1,
+		"vr": false,
+		"physicallyCorrectLights": false,
+		"toneMapping": 0,
+		"toneMappingExposure": 1
+	},
+	"camera": {
+		"metadata": {
+			"version": 4.5,
+			"type": "Object",
+			"generator": "Object3D.toJSON"
+		},
+		"object": {
+			"uuid": "1ee346e6-6aa1-4373-9add-9538440dfbe9",
+			"type": "PerspectiveCamera",
+			"name": "Camera",
+			"layers": 1,
+			"matrix": [0.9976888990477402,3.469446951953614e-18,0.06794748499325087,0,0.023148817208532558,0.9401768154753435,-0.33989952619044345,0,-0.0638826500605133,0.3406868879816803,0.9380039719418058,0,-0.7142297405906938,3.808995202849465,10.487203222133415,1],
+			"fov": 50,
+			"zoom": 1,
+			"near": 0.01,
+			"far": 1000,
+			"focus": 10,
+			"aspect": 1.791304347826087,
+			"filmGauge": 35,
+			"filmOffset": 0
+		}
+	},
+	"scene": {
+		"metadata": {
+			"version": 4.5,
+			"type": "Object",
+			"generator": "Object3D.toJSON"
+		},
+		"geometries": [
+			{
+				"uuid": "ba366c91-ae95-4805-97bc-1698254c1a8e",
+				"type": "BoxGeometry",
+				"width": 4.88,
+				"height": 1,
+				"depth": 1,
+				"widthSegments": 1,
+				"heightSegments": 1,
+				"depthSegments": 1
+			}],
+		"materials": [
+			{
+				"uuid": "0e3082f7-2577-4b10-b329-9d1e47195caa",
+				"type": "MeshStandardMaterial",
+				"color": 16777215,
+				"roughness": 1,
+				"metalness": 0,
+				"emissive": 16777215,
+				"envMapIntensity": 1,
+				"depthFunc": 3,
+				"depthTest": true,
+				"depthWrite": true,
+				"colorWrite": true,
+				"stencilWrite": false,
+				"stencilWriteMask": 255,
+				"stencilFunc": 519,
+				"stencilRef": 0,
+				"stencilFuncMask": 255,
+				"stencilFail": 7680,
+				"stencilZFail": 7680,
+				"stencilZPass": 7680
+			}],
+		"object": {
+			"uuid": "8cfcaf97-4b10-4f58-82b8-32ee5449381c",
+			"type": "Scene",
+			"name": "Scene",
+			"layers": 1,
+			"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+			"children": [
+				{
+					"uuid": "7448ba8e-4eb3-4f83-807b-8eada4adc6fc",
+					"type": "Mesh",
+					"name": "Box",
+					"layers": 1,
+					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0.9176897540328901,0,1],
+					"geometry": "ba366c91-ae95-4805-97bc-1698254c1a8e",
+					"material": "0e3082f7-2577-4b10-b329-9d1e47195caa"
+				}]
+		}
+	},
+	"scripts": {}
+}
